@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "updated": "2026-04-07",
+    "_comment": "学生→材料目录映射。type=personal 表示旧结构（学生名/角色/周次），type=grade 表示新结构（年级/作业/周次）",
+    "mapping": {
+        "张翰中":   { "type": "personal", "path": "张翰中",   "group": "个人", "grade": "九年级" },
+        "曾梓瑞":   { "type": "personal", "path": "曾梓瑞",   "group": "个人", "grade": "九年级" },
+        "杨佐君浩": { "type": "personal", "path": "杨佐君浩", "group": "个人", "grade": "九年级" },
+        "杨紫泠":   { "type": "personal", "path": "杨紫泠",   "group": "个人", "grade": "九年级" },
+        "黄涵松":   { "type": "personal", "path": "黄涵松",   "group": "个人", "grade": "九年级" },
+        "龙其乐":   { "type": "personal", "path": "龙其乐",   "group": "个人", "grade": "九年级" },
+        "黄义朗":   { "type": "grade",    "path": "高一",     "group": "个人", "grade": "高一" },
+        "罗宇涵":   { "type": "grade",    "path": "高一",     "group": "个人", "grade": "高一" },
+        "刘晟廷":   { "type": "grade",    "path": "高一",     "group": "个人", "grade": "高一" },
+        "汪驿渃":   { "type": "grade",    "path": "高一",     "group": "个人", "grade": "高一" },
+        "熊城泽":   { "type": "grade",    "path": "高一",     "group": "个人", "grade": "高一" },
+        "王令宥":   { "type": "grade",    "path": "九年级",   "group": "机构", "grade": "九年级" },
+        "张炜晟":   { "type": "grade",    "path": "九年级",   "group": "机构", "grade": "九年级" },
+        "徐晋鹏":   { "type": "grade",    "path": "九年级",   "group": "机构", "grade": "九年级" },
+        "王子骏":   { "type": "grade",    "path": "九年级",   "group": "机构", "grade": "九年级" }
+    }
+}
