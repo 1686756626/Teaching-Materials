@@ -1,95 +1,24 @@
 {
-    "version": 2,
+    "version": 3,
     "updated": "2026-04-08",
-    "principle": "上周反馈 → 本周材料，本周反馈 → 下周材料。材料依据是上一轮收集到的学生情况，不是当周的。",
-    "callStudents": "杨紫泠/黄涵松/罗宇涵/汪驿渃/刘晟廷/龙其乐",
-    "noCallStudents": "黄义朗、熊城泽不通话",
-    "days": [
-        {
-            "name": "周一", "tag": "规划日", "color": "teal",
-            "items": [
-                { "time": "8:00", "task": "🛏️ 起床（唯一睡懒觉的日子）" },
-                { "time": "9-12", "task": "🏃 自己的时间", "cls": "text-teal-600" },
-                { "time": "14-17", "task": "📋 回顾上周反馈，定本周教学目标", "cls": "font-medium text-teal-700" },
-                { "time": "19-21", "task": "📝 确认周规划 + 更新学生档案", "cls": "font-medium text-amber-700" },
-                { "time": "之后", "task": "陪女友/家务/放松", "cls": "text-pink-400" },
-                { "time": "1:00", "task": "💤 睡（7h）", "cls": "text-indigo-400" }
-            ]
-        },
-        {
-            "name": "周二", "tag": "线下课", "color": "amber",
-            "items": [
-                { "time": "7:00", "task": "🛏️ 起床" },
-                { "time": "7:30", "task": "☎️ 通话（2-3人）→ 收集本周反馈", "cls": "font-medium text-green-700" },
-                { "time": "8:30", "task": "更新已通话学生档案" },
-                { "time": "下午", "task": "📖 线下课：张翰中+曾梓瑞（语文 1v2）", "cls": "font-medium text-red-600" },
-                { "time": "晚上", "task": "课后更新档案 + 反馈记录", "cls": "font-medium text-amber-700" },
-                { "time": "之后", "task": "陪女友/家务/放松", "cls": "text-pink-400" },
-                { "time": "1:00", "task": "💤 睡（6h）", "cls": "text-indigo-400" }
-            ]
-        },
-        {
-            "name": "周三", "tag": "通话+备课", "color": "green",
-            "items": [
-                { "time": "7:00", "task": "🛏️ 起床" },
-                { "time": "7:30", "task": "☎️ 通话（2-3人）→ 收集本周反馈", "cls": "font-medium text-green-700" },
-                { "time": "8:30", "task": "📝 生成本周材料（依据：上周反馈 + 周一规划）", "cls": "font-medium text-amber-700" },
-                { "time": "14:00", "task": "审核+推送", "cls": "font-medium text-amber-700" },
-                { "time": "晚上", "task": "继续备课/自由时间" },
-                { "time": "之后", "task": "陪女友/家务/放松", "cls": "text-pink-400" },
-                { "time": "1:00", "task": "💤 睡（6h）", "cls": "text-indigo-400" }
-            ]
-        },
-        {
-            "name": "周四", "tag": "通话+备课", "color": "green",
-            "items": [
-                { "time": "7:00", "task": "🛏️ 起床" },
-                { "time": "7:30", "task": "☎️ 补打剩余通话 → 收集本周反馈", "cls": "font-medium text-green-700" },
-                { "time": "8:30", "task": "📝 继续生成剩余材料 + 补齐", "cls": "font-medium text-amber-700" },
-                { "time": "14:00", "task": "审核+推送", "cls": "font-medium text-amber-700" },
-                { "time": "晚上", "task": "最终检查所有周末材料" },
-                { "time": "之后", "task": "陪女友/家务/放松", "cls": "text-pink-400" },
-                { "time": "1:00", "task": "💤 睡（6h）", "cls": "text-indigo-400" }
-            ]
-        },
-        {
-            "name": "周五", "tag": "线下课", "color": "amber",
-            "items": [
-                { "time": "7:00", "task": "🛏️ 起床" },
-                { "time": "7:30", "task": "☎️ 通话 + 最终材料检查", "cls": "font-medium text-green-700" },
-                { "time": "8:30", "task": "检查所有周末材料是否到位" },
-                { "time": "12:00", "task": "😤 午饭后休息" },
-                { "time": "19:00", "task": "📖 线下课：张翰中+曾梓瑞+王令宥（道法+历史 1v3）", "cls": "font-medium text-red-600" },
-                { "time": "之后", "task": "课后更新档案（本周最后一批反馈）", "cls": "font-medium text-amber-700" },
-                { "time": "1:00", "task": "💤 睡（6h）", "cls": "text-indigo-400" }
-            ]
-        },
-        {
-            "name": "周六", "tag": "🔥 满课", "color": "red",
-            "items": [
-                { "time": "7:00", "task": "🛏️ 起床" },
-                { "time": "8-10", "task": "📖 机构6人（道法+历史 1v6）", "cls": "font-medium text-red-600" },
-                { "time": "10-12", "task": "📖 杨紫泠（语文 1v1）", "cls": "font-medium text-red-600" },
-                { "time": "12-13", "task": "🍜 午饭+休息" },
-                { "time": "14-16", "task": "📖 黄涵松（语道史 1v1）", "cls": "font-medium text-red-600" },
-                { "time": "16-18", "task": "📖 黄义朗（语文 1v1）", "cls": "font-medium text-red-600" },
-                { "time": "19-21", "task": "📖 罗宇涵（语文 1v1）", "cls": "font-medium text-red-600" },
-                { "time": "之后", "task": "更新档案 + 当面聊黄义朗情况", "cls": "font-medium text-amber-700" },
-                { "time": "1:00", "task": "💤 睡（6h）", "cls": "text-indigo-400" }
-            ]
-        },
-        {
-            "name": "周日", "tag": "线下课", "color": "amber",
-            "items": [
-                { "time": "7:00", "task": "🛏️ 起床" },
-                { "time": "10-12", "task": "📖 刘晟廷+汪驿渃（语文 1v2）", "cls": "font-medium text-red-600" },
-                { "time": "14-16", "task": "📖 龙其乐+杨佐君浩（语道史 1v2）", "cls": "font-medium text-red-600" },
-                { "time": "16-18", "task": "📖 熊城泽（语文 1v1）", "cls": "font-medium text-red-600" },
-                { "time": "晚上", "task": "更新所有档案 → 下周材料的输入", "cls": "font-medium text-amber-700" },
-                { "time": "之后", "task": "自由/休息/周回顾", "cls": "text-pink-400" },
-                { "time": "1:00", "task": "💤 睡（7h）", "cls": "text-indigo-400" }
-            ]
-        }
+    "principle": "每周闭环：作业 → 作业情况 → 校内进度 → 课程材料 → 讲解情况 → 作业",
+    "loopStudents": [
+        {"name": "杨紫泠", "grade": "八年级", "subjects": ["语文"]},
+        {"name": "黄涵松", "grade": "九年级", "subjects": ["语文","道法","历史"]},
+        {"name": "龙其乐", "grade": "九年级", "subjects": ["语文","道法","历史"]},
+        {"name": "罗宇涵", "grade": "高一", "subjects": ["语文"]},
+        {"name": "汪驿渃", "grade": "高一", "subjects": ["语文"]},
+        {"name": "刘晟廷", "grade": "高一", "subjects": ["语文"]}
+    ],
+    "classCheckStudents": [
+        {"name": "黄义朗", "grade": "高一", "subjects": ["语文"]},
+        {"name": "熊城泽", "grade": "高一", "subjects": ["语文"]}
+    ],
+    "phases": [
+        {"name": "发作业", "days": "周一", "order": 0},
+        {"name": "收集反馈", "days": "周二~五", "order": 1},
+        {"name": "出材料", "days": "周五", "order": 2},
+        {"name": "上课", "days": "周六/日", "order": 3}
     ],
     "materialGroups": [
         { "group": "九年级-个人", "students": "黄涵松/龙其乐/杨佐君浩", "subjects": ["语文", "道法", "历史"], "keys": ["黄涵松", "龙其乐", "杨佐君浩"] },
