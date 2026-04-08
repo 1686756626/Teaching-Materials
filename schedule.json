@@ -21,7 +21,6 @@
         ],
         "周二": [
             {"time": "白天", "icon": "fa-phone", "color": "emerald", "task": "通话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷"},
-            {"time": "课后", "icon": "fa-comments", "color": "amber", "task": "当面问", "detail": "黄义朗 · 熊城泽（上课时问作业情况+学校进度）"},
             {"time": "19:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课", "detail": "张翰中+曾梓瑞 · 语文"}
         ],
         "周三": [
@@ -32,7 +31,6 @@
         ],
         "周五": [
             {"time": "白天", "icon": "fa-phone", "color": "emerald", "task": "通话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷"},
-            {"time": "课后", "icon": "fa-comments", "color": "amber", "task": "当面问", "detail": "黄义朗 · 熊城泽（上课时问作业情况+学校进度）"},
             {"time": "19:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课", "detail": "张翰中+曾梓瑞+王令宥 · 道法+历史"},
             {"time": "晚上", "icon": "fa-wand-magic-sparkles", "color": "violet", "task": "出下周材料", "detail": "汇总本周反馈 → AI 出题 → 审核推送"}
         ],
