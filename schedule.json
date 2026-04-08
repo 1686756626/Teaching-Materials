@@ -91,6 +91,13 @@
             ]
         }
     ],
+    "materialGroups": [
+        { "group": "九年级-个人", "students": "黄涵松/龙其乐/杨佐君浩", "subjects": ["语文", "道法", "历史"], "keys": ["黄涵松", "龙其乐", "杨佐君浩"] },
+        { "group": "九年级-机构(道史)", "students": "张翰中+曾梓瑞/王令宥/张炜晟/王子骏/徐晋鹏", "subjects": ["道法", "历史"], "keys": ["张翰中"] },
+        { "group": "九年级-机构(语文)", "students": "张翰中+曾梓瑞", "subjects": ["语文"], "keys": ["张翰中"] },
+        { "group": "八年级", "students": "杨紫泠", "subjects": ["语文"], "keys": ["杨紫泠"] },
+        { "group": "高一", "students": "黄义朗/罗宇涵/刘晟廷+汪驿渃/熊城泽", "subjects": ["语文"], "keys": ["黄义朗", "罗宇涵", "刘晟廷", "熊城泽"] }
+    ],
     "sessions": [
         { "day": "周二", "students": "张翰中+曾梓瑞", "subject": "语文", "key": "张翰中" },
         { "day": "周五", "students": "张翰中+曾梓瑞+王令宥", "subject": "道法+历史", "key": "张翰中" },
