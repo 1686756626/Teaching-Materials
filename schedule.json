@@ -1,5 +1,5 @@
 {
-    "version": 4,
+    "version": 5,
     "updated": "2026-04-08",
     "principle": "每周闭环：作业 → 作业情况 → 校内进度 → 课程材料 → 讲解情况 → 作业",
     "loopStudents": [
@@ -16,31 +16,46 @@
     ],
     "timeline": {
         "周一": [
-            {"time": "上午", "icon": "fa-file-pen", "color": "emerald", "task": "发本周作业", "detail": "周一~四共4份，同年级同一份"},
-            {"time": "全天", "icon": "fa-robot", "color": "gray", "task": "AI 推送作业到 Dashboard", "detail": ""}
+            {"time": "上午", "icon": "fa-file-pen", "color": "emerald", "task": "出语文作业", "detail": "八年级×4 + 九年级×4 + 高一×4（AI出题）", "who": "AI+老师"},
+            {"time": "上午", "icon": "fa-download", "color": "blue", "task": "下载道法/历史作业", "detail": "九年级机构用，学科网下载", "who": "老师"},
+            {"time": "上午", "icon": "fa-cloud-arrow-up", "color": "gray", "task": "推送作业到 Dashboard", "detail": "推 GitHub → Dashboard 自动展示", "who": "AI"}
         ],
         "周二": [
-            {"time": "白天", "icon": "fa-phone", "color": "emerald", "task": "通话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷"},
-            {"time": "19:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课", "detail": "张翰中+曾梓瑞 · 语文"}
+            {"time": "6:00-7:30", "icon": "fa-phone", "color": "emerald", "task": "打电话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷", "who": "老师"},
+            {"time": "打完后", "icon": "fa-user-pen", "color": "gray", "task": "更新学生档案", "detail": "告诉 AI 通话反馈 → AI 追加写入档案", "who": "AI"},
+            {"time": "下午", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：张翰中+曾梓瑞 · 语文", "detail": "一对二 · 机构 · 九年级", "who": "老师"},
+            {"time": "课后", "icon": "fa-user-pen", "color": "gray", "task": "记录课后反馈", "detail": "告诉 AI 讲解情况 → 更新档案", "who": "AI"}
         ],
         "周三": [
-            {"time": "白天", "icon": "fa-phone", "color": "emerald", "task": "通话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷"}
+            {"time": "6:00-7:30", "icon": "fa-phone", "color": "emerald", "task": "打电话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷", "who": "老师"},
+            {"time": "打完后", "icon": "fa-user-pen", "color": "gray", "task": "更新学生档案", "detail": "告诉 AI 通话反馈 → AI 追加写入档案", "who": "AI"}
         ],
         "周四": [
-            {"time": "白天", "icon": "fa-phone", "color": "emerald", "task": "通话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷"}
+            {"time": "6:00-7:30", "icon": "fa-phone", "color": "emerald", "task": "打电话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷", "who": "老师"},
+            {"time": "打完后", "icon": "fa-user-pen", "color": "gray", "task": "更新学生档案", "detail": "告诉 AI 通话反馈 → AI 追加写入档案", "who": "AI"}
         ],
         "周五": [
-            {"time": "白天", "icon": "fa-phone", "color": "emerald", "task": "通话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷"},
-            {"time": "19:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课", "detail": "张翰中+曾梓瑞+王令宥 · 道法+历史"},
-            {"time": "晚上", "icon": "fa-wand-magic-sparkles", "color": "violet", "task": "出下周材料", "detail": "汇总本周反馈 → AI 出题 → 审核推送"}
+            {"time": "6:00-7:30", "icon": "fa-phone", "color": "emerald", "task": "打电话 6 人", "detail": "杨紫泠 / 黄涵松 / 龙其乐 / 罗宇涵 / 汪驿渃 / 刘晟廷", "who": "老师"},
+            {"time": "打完后", "icon": "fa-user-pen", "color": "gray", "task": "更新学生档案", "detail": "告诉 AI 通话反馈 → AI 追加写入档案", "who": "AI"},
+            {"time": "晚上", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：张翰中+曾梓瑞+王令宥 · 道法+历史", "detail": "一对三 · 机构 · 九年级", "who": "老师"},
+            {"time": "课后", "icon": "fa-user-pen", "color": "gray", "task": "记录课后反馈", "detail": "告诉 AI 讲解情况 → 更新档案", "who": "AI"},
+            {"time": "课后", "icon": "fa-wand-magic-sparkles", "color": "violet", "task": "出周末材料", "detail": "汇总全部电话记录 → AI 出周末讲义+教师版 → 审核推送", "who": "AI+老师"}
         ],
         "周六": [
-            {"time": "全天", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课日", "detail": "机构6人·道史 / 杨紫泠·语 / 黄涵松·语道史 / 黄义朗·语 / 罗宇涵·语"},
-            {"time": "课后", "icon": "fa-comments", "color": "amber", "task": "当面问", "detail": "黄义朗（课后问作业情况+学校进度）"}
+            {"time": "08:00-10:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：机构6人 · 道法+历史", "detail": "张翰中/曾梓瑞/王令宥/张炜晟/王子骏/徐晋鹏 · 九年级", "who": "老师"},
+            {"time": "10:00-12:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：杨紫泠 · 语文", "detail": "一对一 · 八年级", "who": "老师"},
+            {"time": "14:00-16:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：黄涵松 · 语道史", "detail": "一对一 · 九年级", "who": "老师"},
+            {"time": "课后", "icon": "fa-comments", "color": "amber", "task": "当面问：黄义朗", "detail": "问作业完成情况 + 学校进度", "who": "老师"},
+            {"time": "16:00-18:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：黄义朗 · 语文", "detail": "一对一 · 高一", "who": "老师"},
+            {"time": "19:00-21:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：罗宇涵 · 语文", "detail": "一对一 · 高一", "who": "老师"},
+            {"time": "课后", "icon": "fa-user-pen", "color": "gray", "task": "记录课后反馈", "detail": "告诉 AI 各学生讲解情况 → 更新档案", "who": "AI"}
         ],
         "周日": [
-            {"time": "全天", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课日", "detail": "刘晟廷+汪驿渃·语 / 龙其乐+杨佐君浩·语道史 / 熊城泽·语"},
-            {"time": "课后", "icon": "fa-comments", "color": "amber", "task": "当面问", "detail": "熊城泽（课后问作业情况+学校进度）"}
+            {"time": "10:00-12:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：刘晟廷+汪驿渃 · 语文", "detail": "一对二 · 高一", "who": "老师"},
+            {"time": "14:00-16:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：龙其乐+杨佐君浩 · 语道史", "detail": "一对二 · 九年级", "who": "老师"},
+            {"time": "课后", "icon": "fa-comments", "color": "amber", "task": "当面问：熊城泽", "detail": "问作业完成情况 + 学校进度", "who": "老师"},
+            {"time": "16:00-18:00", "icon": "fa-chalkboard-user", "color": "rose", "task": "上课：熊城泽 · 语文", "detail": "一对一 · 高一", "who": "老师"},
+            {"time": "课后", "icon": "fa-user-pen", "color": "gray", "task": "记录课后反馈", "detail": "告诉 AI 各学生讲解情况 → 更新档案", "who": "AI"}
         ]
     },
     "materialGroups": [
@@ -51,15 +66,15 @@
         { "group": "高一", "students": "黄义朗/罗宇涵/刘晟廷+汪驿渃/熊城泽", "subjects": ["语文"], "keys": ["黄义朗", "罗宇涵", "刘晟廷", "熊城泽"] }
     ],
     "sessions": [
-        { "day": "周二", "students": "张翰中+曾梓瑞", "subject": "语文", "key": "张翰中" },
-        { "day": "周五", "students": "张翰中+曾梓瑞+王令宥", "subject": "道法+历史", "key": "张翰中" },
-        { "day": "周六", "students": "机构6人", "subject": "道法+历史", "key": "张翰中" },
-        { "day": "周六", "students": "杨紫泠", "subject": "语文", "key": "杨紫泠" },
-        { "day": "周六", "students": "黄涵松", "subject": "语道史", "key": "黄涵松" },
-        { "day": "周六", "students": "黄义朗", "subject": "语文", "key": "黄义朗" },
-        { "day": "周六", "students": "罗宇涵", "subject": "语文", "key": "罗宇涵" },
-        { "day": "周日", "students": "刘晟廷+汪驿渃", "subject": "语文", "key": "刘晟廷" },
-        { "day": "周日", "students": "龙其乐+杨佐君浩", "subject": "语道史", "key": "龙其乐" },
-        { "day": "周日", "students": "熊城泽", "subject": "语文", "key": "熊城泽" }
+        { "id": "S01", "day": "周二", "time": "下午", "students": "张翰中+曾梓瑞", "subject": "语文", "key": "张翰中" },
+        { "id": "S02", "day": "周五", "time": "晚上", "students": "张翰中+曾梓瑞+王令宥", "subject": "道法+历史", "key": "张翰中" },
+        { "id": "S03", "day": "周六", "time": "08:00-10:00", "students": "机构6人", "subject": "道法+历史", "key": "张翰中" },
+        { "id": "S04", "day": "周六", "time": "10:00-12:00", "students": "杨紫泠", "subject": "语文", "key": "杨紫泠" },
+        { "id": "S05", "day": "周六", "time": "14:00-16:00", "students": "黄涵松", "subject": "语道史", "key": "黄涵松" },
+        { "id": "S06", "day": "周六", "time": "16:00-18:00", "students": "黄义朗", "subject": "语文", "key": "黄义朗" },
+        { "id": "S07", "day": "周六", "time": "19:00-21:00", "students": "罗宇涵", "subject": "语文", "key": "罗宇涵" },
+        { "id": "S08", "day": "周日", "time": "10:00-12:00", "students": "刘晟廷+汪驿渃", "subject": "语文", "key": "刘晟廷" },
+        { "id": "S09", "day": "周日", "time": "14:00-16:00", "students": "龙其乐+杨佐君浩", "subject": "语道史", "key": "龙其乐" },
+        { "id": "S10", "day": "周日", "time": "16:00-18:00", "students": "熊城泽", "subject": "语文", "key": "熊城泽" }
     ]
 }
